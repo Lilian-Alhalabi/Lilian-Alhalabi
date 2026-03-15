@@ -1,4 +1,4 @@
-# Hi, I'm Lilian Alhalabi 👋
+# Hi, I'm Lilian Alhalabi 
 
 **Data Science Student | AI Enthusiast**
 
