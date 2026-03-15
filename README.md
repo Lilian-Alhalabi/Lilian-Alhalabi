@@ -149,6 +149,11 @@ Excel Skills for Business – Macquarie University
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Lilian-Alhalabi&layout=compact)
 
 ---
+## Contribution Graph
+
+![Snake animation](https://github.com/Lilian-Alhalabi/Lilian-Alhalabi/blob/output/github-contribution-grid-snake.svg)
+
+---
 
 ## Connect With Me
 
