@@ -113,5 +113,5 @@ English – Fluent
 ##  Contact Me
 
 Email: liliyanalhalabi@gmail.com  
-LinkedIn: linkedin.com/in/lilian-alhalabi  
+LinkedIn: linkedin.com/in/lilian-alhalabi   
 GitHub: github.com/Lilian-Alhalabi
