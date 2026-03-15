@@ -35,6 +35,18 @@ I am passionate about machine learning, data analysis, and AI-driven solutions. 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
 
 ---
+
+## Data & Analytics Tools
+
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Data Analysis](https://img.shields.io/badge/Data%20Analysis-0A66C2?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy)
+
+
+--- 
 ## Soft Skills
 
 ![Analytical Thinking](https://img.shields.io/badge/Analytical%20Thinking-4A90E2?style=for-the-badge)
@@ -43,7 +55,7 @@ I am passionate about machine learning, data analysis, and AI-driven solutions. 
 ![Teamwork](https://img.shields.io/badge/Teamwork%20%26%20Collaboration-20B2AA?style=for-the-badge)
 ![Leadership](https://img.shields.io/badge/Leadership-F39C12?style=for-the-badge)
 
---- 
+---
 
 ##  Projects
 
@@ -115,12 +127,17 @@ Apple Foundation Program – Apple Developer Academy
 
 ##  Languages
 
-Arabic – Native  
-English – Fluent
+## Languages
+
+![Arabic](https://img.shields.io/badge/Arabic-Native-green?style=for-the-badge)
+![English](https://img.shields.io/badge/English-Fluent-blue?style=for-the-badge)
+## Languages
+
+![Arabic](https://img.shields.io/badge/Arabic-Native-006C35?style=for-the-badge)
+![English](https://img.shields.io/badge/English-Fluent-1E90FF?style=for-the-badge)
+
 
 ---
-
-##  Contact Me
 
 ## Connect with me
 
