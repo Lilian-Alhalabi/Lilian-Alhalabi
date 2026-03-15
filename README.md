@@ -113,6 +113,10 @@ English – Fluent
 
 ##  Contact Me
 
-Email: liliyanalhalabi@gmail.com  
-LinkedIn: linkedin.com/in/lilian-alhalabi   
-GitHub: github.com/Lilian-Alhalabi
+## Connect with me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Lilian%20Alhalabi-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/lilian-alhalabi)
+
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:liliyanalhalabi@gmail.com)
+
+[![GitHub](https://img.shields.io/badge/GitHub-LilianAlhalabi-black?style=for-the-badge&logo=github)](https://github.com/Lilian-Alhalabi)
