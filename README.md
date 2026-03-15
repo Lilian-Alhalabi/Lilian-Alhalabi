@@ -1,7 +1,7 @@
 # Hi, I'm Lilian Alhalabi 
 🎓 Data Science Student | AI Specialist  
 
-|<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="250"><img src="https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif" width="250"> | 
+<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="250">
 
 
  Riyadh, Saudi Arabia  
