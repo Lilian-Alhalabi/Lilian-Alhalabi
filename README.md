@@ -1,15 +1,18 @@
-# Hi, I'm Lilian Alhalabi 
-🎓 Data Science Student | AI Specialist  
- Riyadh, Saudi Arabia  
+# Hi, I'm Lilian Alhalabi 👋
 
+**Data Science Student | AI Enthusiast**
+
+📍 Riyadh, Saudi Arabia  
+
+<p align="center">
 <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="250">
+</p>
 
-
- Passionate about Artificial Intelligence, Data Science, and building real-world solutions with data.
+Passionate about Artificial Intelligence, Data Science, and building real-world solutions with data.
 
 ---
 
-##  About Me
+## About Me
 
 I am a motivated Data Science student specializing in Artificial Intelligence at Saudi Electronic University, expected to graduate in 2026.
 
@@ -17,16 +20,27 @@ I am passionate about machine learning, data analysis, and AI-driven solutions. 
 
 ---
 
-##  Technical Skills
+## Technical Skills
 
+### Programming
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=mysql&logoColor=white)
+
+### Data Science & AI
+
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge)
+![Data Analysis](https://img.shields.io/badge/Data%20Analysis-0A66C2?style=for-the-badge)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
 ![NumPy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy)
-![Scikit-Learn](https://img.shields.io/badge/ScikitLearn-F7931E?style=for-the-badge&logo=scikitlearn)
-![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi)
+![Scikit-learn](https://img.shields.io/badge/ScikitLearn-F7931E?style=for-the-badge&logo=scikitlearn)
+
+### Data & Analytics Tools
+
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+### Web Development
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3)
@@ -36,17 +50,6 @@ I am passionate about machine learning, data analysis, and AI-driven solutions. 
 
 ---
 
-## Data & Analytics Tools
-
-![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Data Analysis](https://img.shields.io/badge/Data%20Analysis-0A66C2?style=for-the-badge)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy)
-
-
---- 
 ## Soft Skills
 
 ![Analytical Thinking](https://img.shields.io/badge/Analytical%20Thinking-4A90E2?style=for-the-badge)
@@ -57,56 +60,55 @@ I am passionate about machine learning, data analysis, and AI-driven solutions. 
 
 ---
 
-##  Projects
+## Projects
 
 ### Student Performance Analysis
 Python, Machine Learning
 
-- Predicted academic outcomes using student datasets
-- Performed data cleaning and feature engineering
-- Evaluated multiple machine learning models
+- Predicted academic outcomes using student datasets  
+- Performed data cleaning and feature engineering  
+- Evaluated multiple machine learning models  
 
 ### Heart Disease Prediction
 Python, Scikit-learn, Pandas
 
-- Built a machine learning model to predict heart disease
-- Applied preprocessing and feature selection
-- Compared algorithms to improve accuracy
+- Built a machine learning model to predict heart disease  
+- Applied preprocessing and feature selection  
+- Compared algorithms to improve accuracy  
 
 ### Email Network Analysis
 Python, Network Analysis
 
-- Analyzed email communication networks
-- Identified key connectors and communication patterns
+- Analyzed email communication networks  
+- Identified key connectors and communication patterns  
 
 ### Cosmetics E-Commerce Website
 HTML, CSS, JavaScript, PHP, MySQL
 
-- Developed a full-stack cosmetic store website
-- Implemented product catalog, orders system, and admin panel
-- Designed structured SQL database
+- Developed a full-stack cosmetic store website  
+- Implemented product catalog, orders system, and admin panel  
+- Designed structured SQL database  
 
 ### Elegant Gems E-Commerce
 HTML, CSS, JavaScript, PHP, MySQL
 
-- Built a jewelry e-commerce platform
-- Focused on luxury UI design and dynamic database integration
+- Built a jewelry e-commerce platform  
+- Focused on luxury UI design and dynamic database integration  
 
 ---
 
-## 🎓 Education
+## Education
 
 Bachelor of Data Science – Artificial Intelligence Track  
 Saudi Electronic University  
-First Class Honors  
-Expected Graduation: 2026
 
-Apple Foundation Program – Junior IOS Developer
-Apple Developer Academy
-2026
+GPA: **3.86 / 4**  
+First Class Honors  
+Expected Graduation: **2026**
+
 ---
 
-##  Certifications
+## Certifications
 
 IBM Data Science Professional Certificate – IBM  
 
@@ -123,19 +125,26 @@ Data Analysis and Visualization with Power BI – Microsoft
 
 Excel Skills for Business – Macquarie University  
 
+Apple Foundation Program – Apple Developer Academy  
 
 ---
-
-##  Languages
 
 ## Languages
 
-![Arabic](https://img.shields.io/badge/Arabic-Native-yellow?style=for-the-badge)
-![English](https://img.shields.io/badge/English-Fluent-blue?style=for-the-badge)
+![Arabic](https://img.shields.io/badge/Arabic-Native-006C35?style=for-the-badge)
+![English](https://img.shields.io/badge/English-Fluent-1E90FF?style=for-the-badge)
 
 ---
 
-## Connect with me
+## GitHub Stats
+
+![Lilian's GitHub stats](https://github-readme-stats.vercel.app/api?username=Lilian-Alhalabi&show_icons=true&theme=default)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Lilian-Alhalabi&layout=compact)
+
+---
+
+## Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Lilian%20Alhalabi-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/lilian-alhalabi)
 
