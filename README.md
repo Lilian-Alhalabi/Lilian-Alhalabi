@@ -63,6 +63,8 @@ I am passionate about machine learning, data analysis, and AI-driven solutions. 
 ## Projects
 
 ### Student Performance Analysis
+[View Project](https://github.com/Lilian-Alhalabi/student-performance-analysis)
+
 Python, Machine Learning
 
 - Predicted academic outcomes using student datasets  
@@ -102,9 +104,12 @@ HTML, CSS, JavaScript, PHP, MySQL
 Bachelor of Data Science – Artificial Intelligence Track  
 Saudi Electronic University  
 
-GPA: **3.86 / 4**  
 First Class Honors  
 Expected Graduation: **2026**
+
+Apple Foundation Program 
+Apple Developer Academy  
+ **2025**
 
 ---
 
@@ -124,8 +129,6 @@ SQL for Data Science – University of California, Davis
 Data Analysis and Visualization with Power BI – Microsoft  
 
 Excel Skills for Business – Macquarie University  
-
-Apple Foundation Program – Apple Developer Academy  
 
 ---
 
