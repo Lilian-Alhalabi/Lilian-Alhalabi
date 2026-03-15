@@ -89,8 +89,9 @@ Python, Network Analysis
 - Identified key connectors and communication patterns  
 
 ### Facial Emotion Recognition with FER-2013 Dataset
-Python, Power BI
 [View Project](https://github.com/Lilian-Alhalabi/FER2013-Emotion-Analysis)
+
+Python, Power BI
 
 - Image preprocessing and organization with Python
 - Analysis of emotion distribution
@@ -98,9 +99,10 @@ Python, Power BI
 - Foundation for machine learning applications in facial emotion recognition
 
 ### Elegant Gems E-Commerce
+[View Project](https://github.com/Lilian-Alhalabi/Elegant-Gems-Jewelry-E-commerce-Platform)
+
 HTML, CSS, JavaScript, PHP, MySQL
-- [View Project](https://github.com/Lilian-Alhalabi/Elegant-Gems-Jewelry-E-commerce-Platform)
-- 
+
 - Built a jewelry e-commerce platform  
 - Focused on luxury UI design and dynamic database integration
 
