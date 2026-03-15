@@ -35,6 +35,15 @@ I am passionate about machine learning, data analysis, and AI-driven solutions. 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
 
 ---
+## Soft Skills
+
+![Analytical Thinking](https://img.shields.io/badge/Analytical%20Thinking-4A90E2?style=for-the-badge)
+![Problem Solving](https://img.shields.io/badge/Problem%20Solving-6C63FF?style=for-the-badge)
+![Communication](https://img.shields.io/badge/Communication-00A8E8?style=for-the-badge)
+![Teamwork](https://img.shields.io/badge/Teamwork%20%26%20Collaboration-20B2AA?style=for-the-badge)
+![Leadership](https://img.shields.io/badge/Leadership-F39C12?style=for-the-badge)
+
+--- 
 
 ##  Projects
 
