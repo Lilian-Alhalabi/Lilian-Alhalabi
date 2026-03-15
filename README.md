@@ -1,10 +1,10 @@
 # Hi, I'm Lilian Alhalabi 
 🎓 Data Science Student | AI Specialist  
+ Riyadh, Saudi Arabia  
 
 <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="250">
 
 
- Riyadh, Saudi Arabia  
  Passionate about Artificial Intelligence, Data Science, and building real-world solutions with data.
 
 ---
