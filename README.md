@@ -110,13 +110,13 @@ HTML, CSS, JavaScript, PHP, MySQL
 
 ## Education
 
-Bachelor of Data Science – Artificial Intelligence Track  
+**Bachelor of Data Science – Artificial Intelligence Track**  
 Saudi Electronic University  
 
 First Class Honors  
 Expected Graduation: **2026**
 
-Apple Foundation Program 
+**Apple Foundation Program**
 Apple Developer Academy  
  **2025**
 
