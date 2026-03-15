@@ -147,7 +147,7 @@ Excel Skills for Business – Macquarie University
 ---
 ## Contribution Graph
 
-![Snake animation](https://github.com/Lilian-Alhalabi/Lilian-Alhalabi/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/Lilian-Alhalabi/Lilian-Alhalabi/output/github-contribution-grid-snake.svg)
 
 ---
 
