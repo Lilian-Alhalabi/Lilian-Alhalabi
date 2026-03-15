@@ -72,6 +72,7 @@ Python, Machine Learning
 - Evaluated multiple machine learning models  
 
 ### Heart Disease Prediction
+[View Project](https://github.com/Lilian-Alhalabi/Heart-Disease-Prediction-using-Machine-Learning)
 Python, Scikit-learn, Pandas
 
 - Built a machine learning model to predict heart disease  
@@ -79,17 +80,19 @@ Python, Scikit-learn, Pandas
 - Compared algorithms to improve accuracy  
 
 ### Email Network Analysis
+[View Project](https://github.com/Lilian-Alhalabi/Email-Network-Analysis-using-Python)
 Python, Network Analysis
 
 - Analyzed email communication networks  
 - Identified key connectors and communication patterns  
 
-### Cosmetics E-Commerce Website
-HTML, CSS, JavaScript, PHP, MySQL
-
-- Developed a full-stack cosmetic store website  
-- Implemented product catalog, orders system, and admin panel  
-- Designed structured SQL database  
+### Facial Emotion Recognition with FER-2013 Dataset
+Python, Power BI
+[View Project](https://github.com/Lilian-Alhalabi/FER2013-Emotion-Analysis)
+- Image preprocessing and organization with Python
+- Analysis of emotion distribution
+- Interactive Power BI dashboard for data visualization
+- Foundation for machine learning applications in facial emotion recognition
 
 ### Elegant Gems E-Commerce
 HTML, CSS, JavaScript, PHP, MySQL
