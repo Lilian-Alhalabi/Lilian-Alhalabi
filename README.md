@@ -129,13 +129,8 @@ Apple Foundation Program – Apple Developer Academy
 
 ## Languages
 
-![Arabic](https://img.shields.io/badge/Arabic-Native-green?style=for-the-badge)
+![Arabic](https://img.shields.io/badge/Arabic-Native-yellow?style=for-the-badge)
 ![English](https://img.shields.io/badge/English-Fluent-blue?style=for-the-badge)
-## Languages
-
-![Arabic](https://img.shields.io/badge/Arabic-Native-006C35?style=for-the-badge)
-![English](https://img.shields.io/badge/English-Fluent-1E90FF?style=for-the-badge)
-
 
 ---
 
