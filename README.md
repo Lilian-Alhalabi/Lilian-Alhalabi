@@ -73,6 +73,7 @@ Python, Machine Learning
 
 ### Heart Disease Prediction
 [View Project](https://github.com/Lilian-Alhalabi/Heart-Disease-Prediction-using-Machine-Learning)
+
 Python, Scikit-learn, Pandas
 
 - Built a machine learning model to predict heart disease  
@@ -81,6 +82,7 @@ Python, Scikit-learn, Pandas
 
 ### Email Network Analysis
 [View Project](https://github.com/Lilian-Alhalabi/Email-Network-Analysis-using-Python)
+
 Python, Network Analysis
 
 - Analyzed email communication networks  
@@ -89,6 +91,7 @@ Python, Network Analysis
 ### Facial Emotion Recognition with FER-2013 Dataset
 Python, Power BI
 [View Project](https://github.com/Lilian-Alhalabi/FER2013-Emotion-Analysis)
+
 - Image preprocessing and organization with Python
 - Analysis of emotion distribution
 - Interactive Power BI dashboard for data visualization
@@ -96,10 +99,11 @@ Python, Power BI
 
 ### Elegant Gems E-Commerce
 HTML, CSS, JavaScript, PHP, MySQL
-
+- [View Project](https://github.com/Lilian-Alhalabi/Elegant-Gems-Jewelry-E-commerce-Platform)
+- 
 - Built a jewelry e-commerce platform  
 - Focused on luxury UI design and dynamic database integration
-- [View Project](https://github.com/Lilian-Alhalabi/Elegant-Gems-Jewelry-E-commerce-Platform) 
+
 ---
 
 ## Education
@@ -139,14 +143,6 @@ Excel Skills for Business – Macquarie University
 
 ![Arabic](https://img.shields.io/badge/Arabic-Native-006C35?style=for-the-badge)
 ![English](https://img.shields.io/badge/English-Fluent-1E90FF?style=for-the-badge)
-
----
-
-## GitHub Stats
-
-![Lilian's GitHub stats](https://github-readme-stats.vercel.app/api?username=Lilian-Alhalabi&show_icons=true&theme=default)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Lilian-Alhalabi&layout=compact)
 
 ---
 ## Contribution Graph
