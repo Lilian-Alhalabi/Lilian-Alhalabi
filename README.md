@@ -95,8 +95,8 @@ HTML, CSS, JavaScript, PHP, MySQL
 HTML, CSS, JavaScript, PHP, MySQL
 
 - Built a jewelry e-commerce platform  
-- Focused on luxury UI design and dynamic database integration  
-
+- Focused on luxury UI design and dynamic database integration
+- [View Project](https://github.com/Lilian-Alhalabi/Elegant-Gems-Jewelry-E-commerce-Platform) 
 ---
 
 ## Education
