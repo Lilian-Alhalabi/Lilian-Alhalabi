@@ -98,10 +98,12 @@ HTML, CSS, JavaScript, PHP, MySQL
 
 Bachelor of Data Science – Artificial Intelligence Track  
 Saudi Electronic University  
-GPA: 3.86 / 4  
 First Class Honors  
 Expected Graduation: 2026
 
+Apple Foundation Program – Junior IOS Developer
+Apple Developer Academy
+2026
 ---
 
 ##  Certifications
@@ -121,7 +123,6 @@ Data Analysis and Visualization with Power BI – Microsoft
 
 Excel Skills for Business – Macquarie University  
 
-Apple Foundation Program – Apple Developer Academy
 
 ---
 
