@@ -145,11 +145,6 @@ Excel Skills for Business – Macquarie University
 ![English](https://img.shields.io/badge/English-Fluent-1E90FF?style=for-the-badge)
 
 ---
-## Contribution Graph
-
-![Snake animation](https://raw.githubusercontent.com/Lilian-Alhalabi/Lilian-Alhalabi/output/github-contribution-grid-snake.svg)
-
----
 
 ## Connect With Me
 
