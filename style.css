@@ -1,5 +1,10 @@
 /* 1. Root Variables & Theme */
 :root {
+    --primary: #2563eb;       /* أزرق احترافي */
+    --secondary: #7c3aed;     /* بنفسجي للذكاء الاصطناعي */
+    --dark: #0f172a;          /* خلفية داكنة فخمة */
+    --light: #f8fafc;
+    --glass: rgba(255, 255, 255, 0.05); /* تأثير الزجاج */
     --primary: #4f46e5;
     --primary-dark: #3730a3;
     --secondary: #06b6d4;
