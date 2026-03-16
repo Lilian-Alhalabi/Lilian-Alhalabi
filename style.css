@@ -111,10 +111,12 @@ nav a:hover { color: var(--primary); }
     100% { border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%; }
 }
 
-.profile-circle img { width: 70px;
-    height: 70px;
-    object-fit: contain;
-    margin-right: 20px; }
+.profile-circle img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 /* 5. Stats & Summary Bars */
 .stats-bar { 
@@ -179,12 +181,18 @@ section { padding: 90px 10%; }
     border-radius: 24px; 
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
-    width: 70px;   /* حجم اللوجو */
-    height: auto;
+}
+
+.about-card:hover { 
+    transform: translateY(-5px); 
+}
+.about-card img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
     margin-right: 20px;
 }
 
-.about-card:hover { transform: translateY(-5px); }
 
 .uni-logo { width: 120px; height: auto; border-radius: 12px; }
 
