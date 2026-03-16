@@ -1,10 +1,11 @@
  /* 1. Root Variables & Theme */
+/* 1. Root Variables & Theme */
 :root {
     --primary: #4f46e5;
     --primary-dark: #3730a3;
     --secondary: #06b6d4;
-    --accent: #f472b6; /* لون وردي خفيف */
-    --accent2: #22c55e; /* أخضر خفيف */
+    --accent: #f472b6;
+    --accent2: #22c55e;
     --bg: #f8fafc;
     --card-bg: #ffffff;
     --text-main: #1e293b;
@@ -20,7 +21,6 @@
 
     --transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
 }
-
 
 /* 2. Global Reset */
 * { 
@@ -78,7 +78,6 @@ nav a:hover {
     color: white;
 }
 
-
 /* 4. Hero Section */
 .hero { 
     display: flex; 
@@ -113,7 +112,7 @@ nav a:hover {
 .profile-circle { 
     width: 275px; 
     height: 275px; 
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; /* Trendy Shape */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; 
     overflow: hidden; 
     border: 8px solid white; 
     box-shadow: var(--shadow-lg);
@@ -130,7 +129,6 @@ nav a:hover {
     height: 100%;
     object-fit: cover;
 }
-
 
 /* 5. Stats & Summary Bars */
 .stats-bar { 
@@ -185,11 +183,15 @@ section { padding: 90px 10%; }
     transform: translateX(-50%);
     border-radius: 10px;
 }
-.about-card img{
-    width:200px;
-    height:200px;
+
+/* About Card Images */
+.about-card img:not(.uni-logo) {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
+/* About Card */
 .about-card { 
     display: flex; 
     align-items: center; 
@@ -205,15 +207,14 @@ section { padding: 90px 10%; }
     transform: translateY(-5px); 
 }
 
-
+/* University Logo */
 .uni-logo { 
-    width: 240px;   
+    width: 150px;   
     height: auto; 
     border-radius: 12px;
     margin-right: 25px;
+    object-fit: contain;
 }
-
-
 /* 7. Skills Grid */
 .skill-card { 
     background: var(--white); 
