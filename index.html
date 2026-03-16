@@ -3,54 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lilian Alhalabi | Data Science Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Lilian Mohammad Alhalabi | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">LILIAN<span>.AI</span></div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="menu-btn"><i class="fas fa-bars"></i></div>
-        </div>
-    </nav>
+<nav>
+    <div class="logo">LILIAN<span>.AI</span></div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-    <section id="home" class="hero">
-        <div class="container hero-grid">
-            <div class="hero-content" data-aos="fade-right">
-                <div class="badge">Available for Projects</div>
-                <h1>Data Science <span class="gradient-text">Enthusiast</span> & AI Developer</h1>
-                <p>Hello, I'm Lilian Mohammad Alhalabi. Turning complex data into actionable insights and building intelligent systems.</p>
-                <div class="hero-btns">
-                    <a href="#projects" class="btn primary-btn">View My Work</a>
-                    <a href="https://github.com/Lilian-Alhalabi" target="_blank" class="btn secondary-btn">
-                        <i class="fab fa-github"></i> GitHub
-                    </a>
-                </div>
+<section id="home" class="hero">
+    <div class="hero-content" data-aos="fade-up">
+        <p class="sub-title">Data Science Student | AI Enthusiast</p>
+        <h1>Lilian Mohammad <br><span>Alhalabi</span></h1>
+        <div class="hero-btns">
+            <a href="#projects" class="btn">Explore My Projects</a>
+            <a href="https://github.com/Lilian-Alhalabi" target="_blank" class="btn-outline">GitHub <i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    <div class="hero-img" data-aos="zoom-in">
+        <div class="profile-circle">
+            <i class="fas fa-user-astronaut fa-5x"></i> 
+        </div>
+    </div>
+</section>
+
+<section id="education" class="container">
+    <h2 class="section-title">Education</h2>
+    <div class="education-grid">
+        <div class="edu-card" data-aos="fade-right">
+            <div class="edu-icon"><i class="fas fa-university"></i></div>
+            <h3>University Education</h3>
+            <p>Data Science & Artificial Intelligence Student</p>
+            <span class="edu-tag">Bachelor's Degree</span>
+        </div>
+        <div class="edu-card" data-aos="fade-left">
+            <div class="edu-icon"><i class="fab fa-apple"></i></div>
+            <h3>Apple Developer Academy</h3>
+            <p>iOS Development & Design Thinking Specialist</p>
+            <span class="edu-tag">Professional Training</span>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="container">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+        <div class="skill-item"><i class="fas fa-database"></i> SQL</div>
+        <div class="skill-item"><i class="fas fa-chart-line"></i> Data Visualization</div>
+        <div class="skill-item"><i class="fas fa-robot"></i> Machine Learning</div>
+        <div class="skill-item"><i class="fas fa-code-branch"></i> Git & GitHub</div>
+    </div>
+</section>
+
+<section id="projects" class="container">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card" data-aos="fade-up">
+            <div class="project-img-placeholder">
+                <i class="fas fa-project-diagram"></i>
             </div>
-            <div class="hero-visual" data-aos="zoom-in">
-                <div class="glass-card">
-                    <div class="profile-img">
-                        <i class="fas fa-brain fa-5x"></i>
-                    </div>
-                </div>
+            <div class="project-info">
+                <h3>Project Title</h3>
+                <p>Detailed description of the project goes here. Keeping every word you wrote.</p>
+                <div class="tags"><span>AI</span> <span>Data Analysis</span></div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({ duration: 1000, once: true });
-    </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 </body>
 </html>
