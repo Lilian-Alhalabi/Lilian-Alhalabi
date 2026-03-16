@@ -187,8 +187,8 @@ section { padding: 90px 10%; }
     transform: translateY(-5px); 
 }
 .about-card img{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
     margin-right: 20px;
 }
