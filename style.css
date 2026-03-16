@@ -3,16 +3,24 @@
     --primary: #4f46e5;
     --primary-dark: #3730a3;
     --secondary: #06b6d4;
+    --accent: #f472b6; /* لون وردي خفيف */
+    --accent2: #22c55e; /* أخضر خفيف */
     --bg: #f8fafc;
     --card-bg: #ffffff;
     --text-main: #1e293b;
     --text-muted: #64748b;
     --white: #ffffff;
-    --shadow-sm: 0 5px 15px rgba(0,0,0,0.02);
-    --shadow-lg: 0 20px 40px rgba(79, 70, 229, 0.15);
-    --purple-grad: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%);
-    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --shadow-sm: 0 5px 15px rgba(0,0,0,0.03);
+    --shadow-lg: 0 20px 40px rgba(79,70,229,0.15);
+
+    --purple-grad: linear-gradient(135deg,#4f46e5,#3730a3);
+    --blue-grad: linear-gradient(135deg,#06b6d4,#3b82f6);
+    --pink-grad: linear-gradient(135deg,#f472b6,#ec4899);
+
+    --transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
 }
+
 
 /* 2. Global Reset */
 * { 
@@ -58,12 +66,18 @@ nav ul { display: flex; list-style: none; gap: 30px; }
 nav a { 
     text-decoration: none; 
     color: var(--text-main); 
-    font-weight: 500; 
+    font-weight: 600; 
     font-size: 0.95rem;
+    padding: 8px 16px;
+    border-radius: 8px;
     transition: var(--transition); 
 }
 
-nav a:hover { color: var(--primary); }
+nav a:hover { 
+    background: var(--purple-grad);
+    color: white;
+}
+
 
 /* 4. Hero Section */
 .hero { 
@@ -186,38 +200,38 @@ section { padding: 90px 10%; }
 .about-card:hover { 
     transform: translateY(-5px); 
 }
-.about-card img{
-    width: 200px;
-    height: 200px;
-    object-fit: contain;
-    margin-right: 20px;
+
+
+.uni-logo { 
+    width: 240px;   
+    height: auto; 
+    border-radius: 12px;
+    margin-right: 25px;
 }
 
-
-.uni-logo { width: 120px; height: auto; border-radius: 12px; }
 
 /* 7. Skills Grid */
-.skills-grid { 
-    display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
-    gap: 25px; 
-}
-
 .skill-card { 
     background: var(--white); 
     padding: 30px; 
     border-radius: 20px; 
     box-shadow: var(--shadow-sm); 
-    border-top: 4px solid var(--primary);
+    border-top: 4px solid var(--secondary);
     transition: var(--transition);
 }
 
-.skill-card:hover { 
-    transform: translateY(-10px); 
-    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+.skill-card:nth-child(2){
+    border-top:4px solid var(--primary);
 }
 
-.skill-card h4 { color: var(--primary); margin-bottom: 12px; font-size: 1.1rem; }
+.skill-card:nth-child(3){
+    border-top:4px solid var(--accent);
+}
+
+.skill-card:nth-child(4){
+    border-top:4px solid var(--accent2);
+}
+
 
 /* 8. Projects Portfolio */
 .projects-grid { 
@@ -296,20 +310,17 @@ section { padding: 90px 10%; }
     align-items: center;
     gap: 10px;
     padding: 12px 30px;
-    border: 2px solid var(--primary); /* اللون السماوي اللي استخدمناه */
-    color: var(--primary);
+    background: var(--blue-grad);
+    color: white;
     text-decoration: none;
     font-weight: 600;
-    border-radius: 50px; /* شكل بيضاوي احترافي */
-    transition: all 0.3s ease;
-    background: transparent;
+    border-radius: 50px;
+    transition: 0.3s;
 }
 
-.btn-view-more:hover {
-    background: var(--primary);
-    color: #0f172a; /* يقلب اللون عند التمرير */
-    box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
-    transform: translateY(-3px);
+.btn-view-more:hover{
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 10px 30px rgba(59,130,246,0.4);
 }
 
 /* 9. Certifications */
@@ -398,13 +409,18 @@ section { padding: 90px 10%; }
 }
 .btn { 
     padding: 14px 35px; 
-    background: var(--primary); 
-    color: var(--white); 
+    background: var(--purple-grad);
+    color: white; 
     text-decoration: none; 
     border-radius: 12px; 
     font-weight: 600; 
     transition: var(--transition);
-    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.2);
+    box-shadow: 0 10px 25px rgba(79,70,229,0.3);
+}
+
+.btn:hover { 
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 15px 35px rgba(79,70,229,0.4);
 }
 
 .btn-outline { 
