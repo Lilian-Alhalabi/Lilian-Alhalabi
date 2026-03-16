@@ -185,6 +185,10 @@ section { padding: 90px 10%; }
     transform: translateX(-50%);
     border-radius: 10px;
 }
+.about-card img{
+    width:200px;
+    height:200px;
+}
 
 .about-card { 
     display: flex; 
