@@ -10,7 +10,8 @@
 
 Passionate about Artificial Intelligence, Data Science, and building real-world solutions with data.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20My%20Site-purple?style=for-the-badge&logo=google-chrome)]([https://yourwebsite.com](https://lilian-alhalabi.github.io/Lilian-Alhalabi/#projects))
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20My%20Site-purple?style=for-the-badge&logo=google-chrome)](https://lilian-alhalabi.github.io/Lilian-Alhalabi/#projects)
+
 
 ---
 
