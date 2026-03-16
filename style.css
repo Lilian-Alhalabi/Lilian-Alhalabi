@@ -97,8 +97,8 @@ nav a:hover { color: var(--primary); }
 }
 
 .profile-circle { 
-    width: 320px; 
-    height: 320px; 
+    width: 275px; 
+    height: 275px; 
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; /* Trendy Shape */
     overflow: hidden; 
     border: 8px solid white; 
