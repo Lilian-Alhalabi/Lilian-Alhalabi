@@ -357,8 +357,8 @@ section { padding: 90px 10%; }
 
 /* 11. Buttons */
 .download-btn {
-    background: white;
-    color: var(--primary);
+    background: white !important;
+    color: #4f46e5 !important; /* لون البريماري */
     padding: 12px 25px;
     border-radius: 8px;
     text-decoration: none;
@@ -366,24 +366,21 @@ section { padding: 90px 10%; }
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     border: 2px solid white;
+    cursor: pointer; /* عشان تظهر اليد */
+    position: relative;
+    z-index: 5;
 }
 
 .download-btn:hover {
-    background: transparent;
-    color: white;
-    border-color: white;
+    background: transparent !important;
+    color: white !important;
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
 }
 
-.download-btn i {
-    transition: transform 0.3s ease;
-}
-
-.download-btn:hover i {
-    transform: translateY(3px); /* حركة خفيفة للأيقونة عند التمرير */
+.download-btn:active {
+    transform: scale(0.95); /* الحركة اللي طلبتيها عند الضغط */
 }
 .btn { 
     padding: 14px 35px; 
