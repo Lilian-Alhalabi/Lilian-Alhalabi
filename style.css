@@ -165,57 +165,152 @@ nav a:hover {
 }
 
 /* 6. Skills & Cards */
-section { padding: 100px 10%; }
+/* 6. Cards & Sections */
+section { padding: 90px 10%; }
 
 .section-title { 
-    font-size: 3rem; 
-    margin-bottom: 60px; 
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.skill-card { 
-    background: var(--glass);
-    backdrop-filter: blur(5px);
-    border: 1px solid rgba(255,255,255,0.05);
-    padding: 40px; 
-    border-radius: 25px; 
+    font-size: 2.5rem; 
+    margin-bottom: 50px; 
+    text-align: center; 
+    font-weight: 800;
     position: relative;
-    overflow: hidden;
 }
 
-.skill-card::before {
+.section-title::after {
     content: '';
+    width: 60px;
+    height: 5px;
+    background: var(--secondary);
     position: absolute;
-    top: 0; left: 0; width: 100%; height: 4px;
-    background: var(--purple-grad);
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
 }
 
-.skill-card:hover {
-    background: rgba(255,255,255,0.08);
-    transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+/* About Card Images */
+.about-card img:not(.uni-logo) {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
-
-/* 7. Projects - Modern Grid */
-.project-card { 
-    background: var(--glass);
-    border: 1px solid rgba(255,255,255,0.1);
-    border-radius: 30px; 
-    overflow: hidden;
+/* About Card */
+.about-card { 
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    background: var(--white); 
+    padding: 40px; 
+    border-radius: 24px; 
+    box-shadow: var(--shadow-sm);
     transition: var(--transition);
 }
 
+.about-card:hover { 
+    transform: translateY(-5px); 
+}
+
+/* University Logo */
+.uni-logo { 
+    width: 150px;   
+    height: auto; 
+    border-radius: 12px;
+    margin-right: 25px;
+    object-fit: contain;
+}
+/* 7. Skills Grid */
+.skill-card { 
+    background: var(--white); 
+    padding: 30px; 
+    border-radius: 20px; 
+    box-shadow: var(--shadow-sm); 
+    border-top: 4px solid var(--secondary);
+    transition: var(--transition);
+}
+
+.skill-card:nth-child(2){
+    border-top:4px solid var(--primary);
+}
+
+.skill-card:nth-child(3){
+    border-top:4px solid var(--accent);
+}
+
+.skill-card:nth-child(4){
+    border-top:4px solid var(--accent2);
+}
+
+
+/* 8. Projects Portfolio */
+.projects-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); 
+    gap: 30px; 
+}
+
+.project-card { 
+    background: var(--white); 
+    padding: 35px; 
+    border-radius: 24px; 
+    box-shadow: var(--shadow-sm); 
+    border: 1px solid #f1f5f9; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: var(--transition); 
+}
+
 .project-card:hover { 
-    transform: translateY(-15px) rotate(1deg); 
-    border-color: var(--secondary);
+    transform: translateY(-10px) scale(1.02); 
+    border-color: var(--primary); 
+    box-shadow: 0 20px 40px rgba(0,0,0,0.05);
 }
 
 .project-tag { 
-    background: rgba(14, 165, 233, 0.1);
+    display: inline-block;
+    padding: 4px 12px;
+    background: #eef2ff;
+    color: var(--primary); 
+    border-radius: 8px;
+    font-size: 0.7rem; 
+    font-weight: 700; 
+    margin-bottom: 15px; 
+}
+
+.proj-list { list-style: none; margin: 20px 0; }
+.proj-list li { 
+    margin-bottom: 8px; 
+    padding-left: 25px; 
+    position: relative; 
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+.proj-list li::before { 
+    content: "\f058"; 
+    font-family: "Font Awesome 6 Free"; 
+    font-weight: 900;
+    position: absolute; 
+    left: 0; 
     color: var(--secondary); 
-    border: 1px solid rgba(14, 165, 233, 0.3);
+}
+
+.proj-link { 
+    text-decoration: none; 
+    color: var(--primary); 
+    font-weight: 700; 
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+/* حاوية الزر لضمان التوسيط */
+.view-more-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* مسافة بينه وبين المشاريع */
+    width: 100%;
 }
 
 /* 9. Certifications */
@@ -242,41 +337,64 @@ section { padding: 100px 10%; }
 .cert-item h4 { font-size: 0.95rem; font-weight: 600; line-height: 1.4; }
 
 
-/* 8. Buttons - Interactive */
-.btn-view-more, .btn {
-    position: relative;
-    overflow: hidden;
-    background: var(--purple-grad);
-    border: none;
-    z-index: 1;
-}
-
-.btn-view-more::after {
-    content: '';
-    position: absolute;
-    top: 0; left: -100%; width: 100%; height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-    transition: 0.5s;
-    z-index: -1;
-}
-
-.btn-view-more:hover::after {
-    left: 100%;
-}
-
+/* Buttons */
 .download-btn {
-    background: transparent !important;
-    border: 2px solid var(--primary);
-    color: var(--primary) !important;
-    overflow: hidden;
+    background: white !important;
+    color: #4f46e5 !important; /* لون البريماري */
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.2s ease;
+    border: 2px solid white;
+    cursor: pointer; /* عشان تظهر اليد */
+    position: relative;
+    z-index: 5;
 }
 
 .download-btn:hover {
-    background: var(--primary) !important;
+    background: transparent !important;
     color: white !important;
-    box-shadow: 0 0 30px rgba(99, 102, 241, 0.4);
+    transform: translateY(-3px);
 }
 
+.download-btn:active {
+    transform: scale(0.95); /* الحركة اللي طلبتيها عند الضغط */
+}
+.btn { 
+    padding: 14px 35px; 
+    background: var(--purple-grad);
+    color: white; 
+    text-decoration: none; 
+    border-radius: 12px; 
+    font-weight: 600; 
+    transition: var(--transition);
+    box-shadow: 0 10px 25px rgba(79,70,229,0.3);
+}
+
+.btn:hover { 
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 15px 35px rgba(79,70,229,0.4);
+}
+
+.btn-outline { 
+    padding: 14px 35px; 
+    border: 2px solid var(--primary); 
+    color: var(--primary); 
+    text-decoration: none; 
+    border-radius: 12px; 
+    font-weight: 600; 
+    transition: var(--transition);
+}
+
+.btn:hover { background: var(--primary-dark); transform: translateY(-3px); }
+.btn-outline:hover { background: var(--primary); color: white; transform: translateY(-3px); }
+.download-btn:active {
+    transform: scale(0.9) !important; /* سيصغر الزر عند الضغط عليه فعلياً */
+}
 /* 9. Contact Card - Neon Explosion */
 .contact-card { 
     background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%); 
