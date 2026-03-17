@@ -21,6 +21,13 @@
 
     --transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
 }
+.hero-btns {
+    display: flex;
+    gap: 20px; /* مسافة بين الزرين */
+    flex-wrap: wrap; /* لكي تنزل الأزرار تحت بعضها في الشاشات الصغيرة جداً */
+    margin-top: 30px;
+}
+
 .video-bg {
   position: fixed;
   top: 0;
