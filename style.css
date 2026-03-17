@@ -1,4 +1,4 @@
- /* 1. Root Variables & Theme */
+
 /* 1. Root Variables & Theme */
 :root {
     --primary: #4f46e5;
@@ -8,8 +8,8 @@
     --accent2: #22c55e;
     --bg: #f8fafc;
     --card-bg: #ffffff;
-    --text-main: #1e293b;
-    --text-muted: #64748b;
+    --text-main: #8a0177;
+    --text-muted: #006aff;
     --white: #ffffff;
 
     --shadow-sm: 0 5px 15px rgba(0,0,0,0.03);
@@ -75,7 +75,7 @@ nav {
 }
 
 .logo { 
-    font-size: 1.6rem; 
+    font-size: 2.6rem; 
     font-weight: 800; 
     color: var(--primary); 
     letter-spacing: -1px;
@@ -83,13 +83,13 @@ nav {
 
 .logo span { color: var(--secondary); }
 
-nav ul { display: flex; list-style: none; gap: 30px; }
+nav ul { display: flex; list-style: none; gap: 20px; }
 
 nav a { 
     text-decoration: none; 
     color: var(--text-main); 
     font-weight: 600; 
-    font-size: 0.95rem;
+    font-size: 1.00rem;
     padding: 8px 16px;
     border-radius: 8px;
     transition: var(--transition); 
@@ -108,20 +108,89 @@ nav a:hover {
     padding: 100px 10% 140px; 
     gap: 60px; 
 }
+.hero-tagline {
+    /* 1. تغيير الخط ليكون أرفع وأكثر عصرية */
+    font-family: 'Outfit', 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    
+    /* 2. اختيار لون سماوي نيون (Cyan) ليناسب الـ Data Science */
+    color: #0ea5e9; 
+    
+    /* 3. إضافة تأثير توهج خفيف جداً خلف النص */
+    text-shadow: 0 0 10px rgba(14, 165, 233, 0.4);
+    
+    /* 4. تنسيقات إضافية لجمالية السطر */
+    letter-spacing: 1.5px;         /* مسافات بين الحروف */
+    text-transform: uppercase;     /* حروف كبيرة */
+    margin-bottom: 12px;           /* مسافة بسيطة تحت السطر */
+    display: block;                /* لضمان أنه في سطر مستقل */
+}
 
 .hero-content { flex: 1; }
 
-.hero h1 { 
-    font-size: 3.8rem; 
-    line-height: 1.1; 
-    margin-bottom: 20px; 
-    font-weight: 800;
+/* هذا الكود سيطبق الألوان المتحركة على Lilian Mohammad Alhalabi بالكامل */
+.hero h1 {
+    /* 1. اختيار تدرج ألوان نيون فخم */
+    background: linear-gradient(
+        to right, 
+        #6366f1, #a855f7, #ec4899, #06b6d4, #6366f1
+    );
+    
+    /* 2. جعل الخلفية عريضة جداً للحركة */
+    background-size: 200% auto;
+    
+    /* 3. تفريغ الألوان داخل النص */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    /* 4. تشغيل الحركة الانسيابية */
+    animation: moveGradient 4s linear infinite;
+    
+    /* 5. ضبط الخط ليكون عريضاً وواضحاً */
+    font-weight: 900;
+    font-size: 60px;
+    display: inline-block; /* لضمان انضباط التدرج على النص فقط */
+}
+
+/* 6. تعريف حركة دوران الألوان */
+@keyframes moveGradient {
+    0% { background-position: 0% center; }
+    100% { background-position: 200% center; }
+}
+
+/* إلغاء أي تنسيق خاص للـ span القديم لكي لا يفسد الشكل */
+.hero h1 span {
+    background: none;
+    -webkit-text-fill-color: inherit;
+    background-clip: inherit;
 }
 
 .hero h1 span { 
-    background: var(--purple-grad);
+    /* 1. إنشاء التدرج اللوني (يمكنك تغيير الألوان هنا) */
+    background: linear-gradient(
+        to right, 
+        #4f46e5, #ec4899, #06b6d4, #4f46e5
+    );
+    
+    /* 2. جعل التدرج كبيراً جداً ليسمح بالحركة */
+    background-size: 300% auto;
+    
+    /* 3. قص الخلفية لتظهر فقط داخل النص */
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+    
+    /* 4. استدعاء الحركة */
+    animation: shine 4s linear infinite;
+}
+
+/* 5. تعريف الحركة (تحريك مكان الخلفية) */
+@keyframes shine {
+    to {
+        background-position: 300% center;
+    }
 }
 
 .hero p { 
@@ -323,11 +392,11 @@ section { padding: 90px 10%; }
     gap: 8px;
     margin-top: 15px;
 }
-/* حاوية الزر لضمان التوسيط */
+
 .view-more-container {
     display: flex;
     justify-content: center;
-    margin-top: 50px; /* مسافة بينه وبين المشاريع */
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -375,7 +444,7 @@ section { padding: 90px 10%; }
 
 /* 10. Contact Card */
 .contact-card { 
-    background: var(--purple-grad); 
+    background: var(--transition); 
     color: var(--white); 
     padding: 80px 40px; 
     border-radius: 40px; 
@@ -409,8 +478,8 @@ section { padding: 90px 10%; }
 
 /* 11. Buttons */
 .download-btn {
-    background: white !important;
-    color: #4f46e5 !important; /* لون البريماري */
+    background: var(--blue-grad);
+    color: #ffffff !important; /* لون البريماري */
     padding: 12px 25px;
     border-radius: 8px;
     text-decoration: none;
@@ -432,7 +501,7 @@ section { padding: 90px 10%; }
 }
 
 .download-btn:active {
-    transform: scale(0.95); /* الحركة اللي طلبتيها عند الضغط */
+    transform: scale(0.95); 
 }
 .btn { 
     padding: 14px 35px; 
@@ -463,7 +532,7 @@ section { padding: 90px 10%; }
 .btn:hover { background: var(--primary-dark); transform: translateY(-3px); }
 .btn-outline:hover { background: var(--primary); color: white; transform: translateY(-3px); }
 .download-btn:active {
-    transform: scale(0.9) !important; /* سيصغر الزر عند الضغط عليه فعلياً */
+    transform: scale(0.9) !important; 
 }
 /* 12. Footer */
 footer { 
