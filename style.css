@@ -156,6 +156,13 @@ nav a:hover {
     color: var(--secondary);
     text-shadow: 0 0 20px rgba(14, 165, 233, 0.5);
 }
+.uni-logo { 
+    width: 150px;   
+    height: auto; 
+    border-radius: 12px;
+    margin-right: 25px;
+    object-fit: contain;
+}
 
 /* 6. Skills & Cards */
 section { padding: 100px 10%; }
@@ -190,6 +197,7 @@ section { padding: 100px 10%; }
     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
 
+
 /* 7. Projects - Modern Grid */
 .project-card { 
     background: var(--glass);
@@ -209,6 +217,30 @@ section { padding: 100px 10%; }
     color: var(--secondary); 
     border: 1px solid rgba(14, 165, 233, 0.3);
 }
+
+/* 9. Certifications */
+.certs-container { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+    gap: 25px; 
+}
+
+.cert-item { 
+    background: var(--white); 
+    padding: 30px; 
+    border-radius: 20px; 
+    text-align: center; 
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cert-item img { height: 50px; width: auto; object-fit: contain; margin-bottom: 20px; filter: grayscale(10%); transition: 0.3s; }
+.cert-item:hover img { filter: grayscale(0%); transform: scale(1.1); }
+.cert-item h4 { font-size: 0.95rem; font-weight: 600; line-height: 1.4; }
+
 
 /* 8. Buttons - Interactive */
 .btn-view-more, .btn {
