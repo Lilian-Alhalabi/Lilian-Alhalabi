@@ -65,8 +65,20 @@ I am passionate about machine learning, data analysis, and AI-driven solutions. 
 
 ## Projects
 
+### 🎓 Arabic E-Commerce Reviews Sentiment Analysis — Senior Project
+[View Project](https://github.com/Lilian-Alhalabi/Arabic-Ecommerce-Sentiment-Analysis-Senior-Project)
+
+Python, MARBERT, HuggingFace Transformers, Streamlit, PyTorch
+
+- Built an AI-powered system to classify Arabic e-commerce reviews into Positive, Negative, and Neutral sentiments
+- Fine-tuned MARBERT transformer model specifically designed for Arabic dialects
+- Achieved 94.78% accuracy on the test dataset
+- Applied data balancing using RandomOverSampler to handle class imbalance
+- Deployed an interactive bilingual dashboard (Arabic & English) using Streamlit
+- Led a team of 6 members as Team Leader following Agile methodology
 ### Student Performance Analysis
 [View Project](https://github.com/Lilian-Alhalabi/student-performance-analysis)
+
 
 Python, Machine Learning
 
