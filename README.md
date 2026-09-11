@@ -6,6 +6,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20My%20Site-purple?style=for-the-badge&logo=google-chrome)](https://lilian-alhalabi.github.io/Lilian-Alhalabi/)
 
+<p align="center"> <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="250"> </p>
 ---
 
 ## About Me
