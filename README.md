@@ -1,174 +1,115 @@
-# Hi, I'm Lilian Alhalabi 
+# Hi, I'm Lilian Alhalabi
 
-**Data Science Student | AI Enthusiast**
+**Data Science Graduate | AI & Machine Learning**
 
-📍 Riyadh, Saudi Arabia  
+📍 Riyadh, Saudi Arabia
 
-<p align="center">
-<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="250">
-</p>
-
-Passionate about Artificial Intelligence, Data Science, and building real-world solutions with data.
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20My%20Site-purple?style=for-the-badge&logo=google-chrome)](https://lilian-alhalabi.github.io/Lilian-Alhalabi)
-
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20My%20Site-purple?style=for-the-badge&logo=google-chrome)](https://lilian-alhalabi.github.io/Lilian-Alhalabi/)
 
 ---
 
 ## About Me
 
-I am a motivated Data Science student specializing in Artificial Intelligence at Saudi Electronic University, expected to graduate in 2026.
-
-I am passionate about machine learning, data analysis, and AI-driven solutions. I enjoy turning data into meaningful insights and building projects that solve real-world problems.
+I'm a Data Science graduate from Saudi Electronic University (First Class Honours) with a focus on Artificial Intelligence and Machine Learning. My work centers on NLP and applied ML, most notably an Arabic sentiment analysis system built on MARBERT. I've also gained hands-on Data Engineering exposure — working with SQL, Docker, CDC pipelines, and BI tools — which shapes how I think about getting data ready for analysis and modeling. I enjoy building things that go from raw data to a working, usable interface.
 
 ---
 
 ## Technical Skills
 
-### Programming
+**Programming**
+Python · SQL
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=mysql&logoColor=white)
+**Data Science & Machine Learning**
+Pandas · NumPy · Scikit-learn · TensorFlow · PyTorch · NLP · Statistical Analysis
 
-### Data Science & AI
+**Data Engineering & Analytics**
+Docker · Trino · Debezium · Apache Kafka · Apache Airflow · Cube.js · ETL / ELT
 
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge)
-![Data Analysis](https://img.shields.io/badge/Data%20Analysis-0A66C2?style=for-the-badge)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy)
-![Scikit-learn](https://img.shields.io/badge/ScikitLearn-F7931E?style=for-the-badge&logo=scikitlearn)
+**Databases**
+MySQL
 
-### Data & Analytics Tools
+**Visualization & BI**
+Power BI · Excel · Apache Superset · Metabase
 
-![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
-### Web Development
-
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
+**Additional Exposure**
+Apache Iceberg · dbt · ClickHouse
 
 ---
 
-## Soft Skills
+## Experience
 
-![Analytical Thinking](https://img.shields.io/badge/Analytical%20Thinking-4A90E2?style=for-the-badge)
-![Problem Solving](https://img.shields.io/badge/Problem%20Solving-6C63FF?style=for-the-badge)
-![Communication](https://img.shields.io/badge/Communication-00A8E8?style=for-the-badge)
-![Teamwork](https://img.shields.io/badge/Teamwork%20%26%20Collaboration-20B2AA?style=for-the-badge)
-![Leadership](https://img.shields.io/badge/Leadership-F39C12?style=for-the-badge)
+**Data Engineer Trainee — IT-Ranks Technology**, Riyadh, Saudi Arabia (June – August 2026)
+Hands-on training covering ETL/ELT concepts and general data engineering workflows — including SQL and Python for data tasks, Docker-based local environments, setting up and testing a Debezium connector, observing change-data-capture events through Kafka, and working with Cube.js, Apache Superset, Metabase, and basic Trino querying. Independently studied Apache Airflow fundamentals and explained core concepts to the data team.
 
 ---
 
-## Projects
+## Featured Project
 
 ### 🎓 Arabic E-Commerce Reviews Sentiment Analysis — Senior Project
-[View Project](https://github.com/Lilian-Alhalabi/Arabic-Ecommerce-Sentiment-Analysis-Senior-Project)
+[View Repository](https://github.com/Lilian-Alhalabi/Arabic-Ecommerce-Sentiment-Analysis-Senior-Project)
 
-Python, MARBERT, HuggingFace Transformers, Streamlit, PyTorch
+Python · MARBERT · HuggingFace Transformers · PyTorch · TensorFlow · Scikit-learn · Streamlit
 
-- Built an AI-powered system to classify Arabic e-commerce reviews into Positive, Negative, and Neutral sentiments
-- Fine-tuned MARBERT transformer model specifically designed for Arabic dialects
-- Achieved 94.78% accuracy on the test dataset
-- Applied data balancing using RandomOverSampler to handle class imbalance
-- Deployed an interactive bilingual dashboard (Arabic & English) using Streamlit
-- Led a team of 6 members as Team Leader following Agile methodology
-### Student Performance Analysis
-[View Project](https://github.com/Lilian-Alhalabi/student-performance-analysis)
+An NLP system that classifies Arabic e-commerce reviews as Positive, Negative, or Neutral. Fine-tuned MARBERT for Arabic dialect handling, addressed class imbalance with oversampling, and deployed a bilingual (Arabic/English) Streamlit interface. Achieved **94.78% accuracy** on the test set. Led a team of 6 under Agile methodology. Selected for presentation at the **Geneva graduation-projects exhibition in 2027**.
 
+---
 
-Python, Machine Learning
-
-- Predicted academic outcomes using student datasets  
-- Performed data cleaning and feature engineering  
-- Evaluated multiple machine learning models  
+## Other Projects
 
 ### Heart Disease Prediction
-[View Project](https://github.com/Lilian-Alhalabi/Heart-Disease-Prediction-using-Machine-Learning)
+[View Repository](https://github.com/Lilian-Alhalabi/Heart-Disease-Prediction-using-Machine-Learning)
+Python · Scikit-learn · Pandas
+Built and compared classification models to predict heart disease risk, with preprocessing and feature selection to improve accuracy.
 
-Python, Scikit-learn, Pandas
+### Student Performance Analysis
+[View Repository](https://github.com/Lilian-Alhalabi/student-performance-analysis)
+Python · Machine Learning
+Predicted academic outcomes from student data, with data cleaning, feature engineering, and evaluation across multiple ML models.
 
-- Built a machine learning model to predict heart disease  
-- Applied preprocessing and feature selection  
-- Compared algorithms to improve accuracy  
+### Facial Emotion Recognition — FER-2013
+[View Repository](https://github.com/Lilian-Alhalabi/FER2013-Emotion-Analysis)
+Python · Power BI
+Preprocessed and analyzed the FER-2013 dataset for emotion distribution, with an interactive Power BI dashboard as a foundation for future ML work.
 
 ### Email Network Analysis
-[View Project](https://github.com/Lilian-Alhalabi/Email-Network-Analysis-using-Python)
-
-Python, Network Analysis
-
-- Analyzed email communication networks  
-- Identified key connectors and communication patterns  
-
-### Facial Emotion Recognition with FER-2013 Dataset
-[View Project](https://github.com/Lilian-Alhalabi/FER2013-Emotion-Analysis)
-
-Python, Power BI
-
-- Image preprocessing and organization with Python
-- Analysis of emotion distribution
-- Interactive Power BI dashboard for data visualization
-- Foundation for machine learning applications in facial emotion recognition
+[View Repository](https://github.com/Lilian-Alhalabi/Email-Network-Analysis-using-Python)
+Python · Network Analysis
+Analyzed email communication data to map network structure and identify key connectors and communication patterns.
 
 ### Elegant Gems E-Commerce
-[View Project](https://github.com/Lilian-Alhalabi/Elegant-Gems-Jewelry-E-commerce-Platform)
-
-HTML, CSS, JavaScript, PHP, MySQL
-
-- Built a jewelry e-commerce platform  
-- Focused on luxury UI design and dynamic database integration
+[View Repository](https://github.com/Lilian-Alhalabi/Elegant-Gems-Jewelry-E-commerce-Platform)
+HTML · CSS · JavaScript · PHP · MySQL
+An earlier web development project: a jewelry e-commerce platform with database-driven product management and UI design.
 
 ---
 
 ## Education
 
-**Bachelor of Data Science – Artificial Intelligence Track**  
-Saudi Electronic University  
-
-First Class Honors  
-Expected Graduation: **2026**
+**Bachelor of Data Science — Artificial Intelligence Track**
+Saudi Electronic University
+First Class Honours | GPA 3.88/4.0 | 2026
 
 **Apple Foundation Program**
-Apple Developer Academy  
- **2025**
+Apple Developer Academy — 2025
 
 ---
 
 ## Certifications
 
-IBM Data Science Professional Certificate – IBM  
+- IBM Data Science Professional Certificate — IBM
+- Elements of AI — University of Helsinki & Google
+- SQL for Data Science — University of California, Davis
+- Data Analysis and Visualization with Power BI — Microsoft
+- Excel Skills for Business — Macquarie University
 
-
-
-Microsoft Azure AI Learning Badges  
-AI-900  
-AI-050  
-AI-102  
-
-Elements of AI – University of Helsinki & Google  
-
-SQL for Data Science – University of California, Davis  
-
-Data Analysis and Visualization with Power BI – Microsoft  
-
-Excel Skills for Business – Macquarie University  
-
----
-
-## Languages
-
-![Arabic](https://img.shields.io/badge/Arabic-Native-006C35?style=for-the-badge)
-![English](https://img.shields.io/badge/English-Fluent-1E90FF?style=for-the-badge)
+**Microsoft Azure AI Learning Badges**
+AI-900 · AI-050 · AI-102
 
 ---
 
 ## Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Lilian%20Alhalabi-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/lilian-alhalabi)
-
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20My%20Site-purple?style=for-the-badge&logo=google-chrome)](https://lilian-alhalabi.github.io/Lilian-Alhalabi/)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:liliyanalhalabi@gmail.com)
-
 [![GitHub](https://img.shields.io/badge/GitHub-LilianAlhalabi-black?style=for-the-badge&logo=github)](https://github.com/Lilian-Alhalabi)
