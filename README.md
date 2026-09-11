@@ -7,8 +7,8 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20My%20Site-purple?style=for-the-badge&logo=google-chrome)](https://lilian-alhalabi.github.io/Lilian-Alhalabi/)
 
 <p align="center"> <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="250"> </p>
----
 
+---
 ## About Me
 
 I'm a Data Science graduate from Saudi Electronic University (First Class Honours) with a focus on Artificial Intelligence and Machine Learning. My work centers on NLP and applied ML, most notably an Arabic sentiment analysis system built on MARBERT. I've also gained hands-on Data Engineering exposure — working with SQL, Docker, CDC pipelines, and BI tools — which shapes how I think about getting data ready for analysis and modeling. I enjoy building things that go from raw data to a working, usable interface.
