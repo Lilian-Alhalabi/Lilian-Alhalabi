@@ -446,16 +446,79 @@ nav {
     font-size: 1.02rem;
 }
 
+
 /* 6. Sections & Titles ------------------------------------------- */
 section { padding: 80px 6%; max-width: 1180px; margin: 0 auto; }
-
+ 
+/* 6b. Reflection / Quranic verse card ------------------------------ */
+.reflection-section { padding: 20px 6% 90px; }
+ 
+.islamic-quote-card {
+    position: relative;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 44px;
+    text-align: center;
+    border-radius: var(--radius-lg);
+    background:
+        repeating-linear-gradient(45deg, rgba(212,175,85,0.07) 0, rgba(212,175,85,0.07) 1px, transparent 1px, transparent 22px),
+        repeating-linear-gradient(-45deg, rgba(212,175,85,0.07) 0, rgba(212,175,85,0.07) 1px, transparent 1px, transparent 22px),
+        linear-gradient(160deg, #063b2e 0%, #052a21 100%);
+    border: 1px solid rgba(212, 175, 85, 0.35);
+    box-shadow: 0 25px 60px rgba(5, 42, 33, 0.35);
+    overflow: hidden;
+}
+ 
+.corner-ornament {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    fill: none;
+    stroke: #d4af55;
+    stroke-width: 1.4;
+    opacity: 0.85;
+}
+.corner-ornament circle { fill: #d4af55; stroke: none; }
+.corner-tl { top: 14px; left: 14px; }
+.corner-tr { top: 14px; right: 14px; transform: scaleX(-1); }
+.corner-bl { bottom: 14px; left: 14px; transform: scaleY(-1); }
+.corner-br { bottom: 14px; right: 14px; transform: scale(-1, -1); }
+ 
+.quote-ayah {
+    font-family: 'Amiri', 'Traditional Arabic', serif;
+    font-weight: 700;
+    font-size: clamp(1.5rem, 3.2vw, 2.3rem);
+    color: #f0d99a;
+    line-height: 2;
+    margin-bottom: 12px;
+}
+ 
+.quote-ref {
+    font-family: 'Amiri', serif;
+    color: #8fd4b8;
+    font-size: 0.95rem;
+    letter-spacing: 0.3px;
+    margin-bottom: 18px;
+}
+ 
+.quote-translation {
+    color: rgba(240, 217, 154, 0.65);
+    font-size: 0.85rem;
+    font-style: italic;
+}
+ 
+@media (max-width: 600px) {
+    .islamic-quote-card { padding: 40px 24px; }
+    .corner-ornament { width: 28px; height: 28px; }
+}
+ 
 .section-title {
     font-size: clamp(1.7rem, 3vw, 2.3rem);
     margin-bottom: 12px;
     text-align: center;
     font-weight: 800;
 }
-
+ 
 .section-kicker {
     display: block;
     text-align: center;
@@ -465,7 +528,7 @@ section { padding: 80px 6%; max-width: 1180px; margin: 0 auto; }
     letter-spacing: 0.5px;
     margin-bottom: 8px;
 }
-
+ 
 .section-lede {
     text-align: center;
     color: var(--muted);
